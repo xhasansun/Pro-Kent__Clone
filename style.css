@@ -1,0 +1,164 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    line-height: 1.86;
+}
+
+/* NAVBAR */
+#header{
+    height: 82vh;
+    background: linear-gradient( rgba(20, 20, 20, .3), rgba(20,20,20, .3)),url(img/homepage.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.sticky{
+    background-color: black;
+    transition: 0.3s;
+}
+
+
+.white{
+    color: white !important;
+}
+
+
+@media (max-width: 992px) { 
+    .white{
+        color: black !important;
+    }
+
+    .offcanvas{
+        width: 80%;
+    }
+
+    .social{
+        position: absolute;
+        top: 15%;
+        left: 25%;
+    }
+    .bg-black{
+        display: none;
+    }
+}
+
+/* NAVBAR END*/
+
+/* HERO SECTION */
+.hero{
+    position: relative;
+    top: 210px;
+    z-index: 111;
+  
+} 
+
+/* HERO SECTION END*/
+
+/* SECTION ONE */
+
+    
+/* SECTION ONE END  */
+
+
+
+
+
+
+/* SECTION TWO */
+
+
+/* SECTION TWO END */
+
+
+
+
+
+
+
+
+/* SECTION THREE */
+
+.bg-image{
+    height: 50vh;
+    background: linear-gradient( rgba(20, 20, 20, .8), rgba(20,20,20, .8)),url(img/homepage3.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.marginTop{
+    margin-top: 150px;
+}
+    
+/* SECTION THREE END  */
+
+
+
+/* COMMENT SECTİON  */
+.bg-black{
+    height: 550px;
+    background-color: #1A1C1E;
+}
+
+.card{
+    border: 1px solid white;
+    background: black;
+    width: 80%;
+}
+
+.card-text{
+    font-size: 15px;
+}
+
+/* COMMENT SECTİON END */
+
+
+
+/* QUESTİON SECTION */
+
+.question{
+    height: 50vh;
+    background: linear-gradient( rgba(20, 20, 20, .8), rgba(20,20,20, .8)),url(img/homepage4.jpg);
+    background-size: cover;
+}
+
+/* QUESTİON SECTION END */
+
+
+
+/* FOOTER */
+
+.bg-black-footer{
+    height: 40vh;
+    background-color: black;
+}
+
+@media (max-width: 768px) { 
+    .text-end{
+        text-align: center !important;
+    }
+
+    .text-start{
+        text-align: center !important;
+    }
+ }
+
+/* FOOTER END */
+
+
+.scrolltotop{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 992;
+    
+    opacity: 1;
+    -webkit-transition: ease-out 0.12s;
+    transition: ease-out 0.12s;
+}
+
+.button-circle-dark{
+    color: white;
+}
